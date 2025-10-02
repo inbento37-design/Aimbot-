@@ -17,8 +17,8 @@
   </header>
 
   <main class="max-w-2xl mx-auto p-6 text-center">
-    <h2 class="text-2xl font-bold mb-4">Sigue los pasos para continuar</h2>
-    <p class="mb-6">Debes suscribirte, dar like, unirte al grupo y al canal antes de continuar.</p>
+    <h2 class="text-2xl font-bold mb-4">Sigue los pasos para descargar</h2>
+    <p class="mb-6">Debes suscribirte, dar like, unirte al grupo y al canal antes de descargar.</p>
     <button id="open-gate" class="bg-red-600 text-white px-6 py-3 rounded-lg font-semibold">Suscribirse</button>
   </main>
 
@@ -27,7 +27,7 @@
     <div class="bg-white rounded-xl shadow-xl max-w-md w-full p-6 text-center">
 
       <h3 class="text-xl font-bold mb-2">Verificación de pasos</h3>
-      <p class="text-sm text-gray-600 mb-4">Completa cada paso para continuar.</p>
+      <p class="text-sm text-gray-600 mb-4">Completa cada paso para desbloquear la descarga.</p>
 
       <!-- Paso 1: Like -->
       <div id="like-step">
@@ -56,18 +56,18 @@
         </div>
       </div>
 
-      <!-- Paso 5: Canal -->
+      <!-- Paso 5: Canal de contraseñas -->
       <div id="channel-area" class="hidden mt-4">
-        <p class="text-sm mb-2">Únete a nuestro canal:</p>
+        <p class="text-sm mb-2">Únete a nuestro canal de contraseñas:</p>
         <a id="channel-btn" href="https://whatsapp.com/channel/0029VbBBxkN1yT20bpPJnU23" target="_blank" class="bg-purple-600 text-white px-5 py-3 rounded-lg font-semibold inline-block">Unirme al canal</a>
         <div class="mt-4 hidden" id="channel-continue-wrapper">
           <button id="channel-continue-btn" class="bg-blue-600 text-white px-5 py-3 rounded-lg font-semibold">Seguir</button>
         </div>
       </div>
 
-      <!-- Paso 6: Final -->
+      <!-- Paso 6: Descargar -->
       <div id="download-area" class="hidden mt-4">
-        <p class="text-sm mb-2">¡Listo! Ahora continúa aquí:</p>
+        <p class="text-sm mb-2">¡Listo! Ahora puedes descargar:</p>
         <a id="download-link" href="https://chat.whatsapp.com/HkmNRGbee4x4hDOmCBNfAN?mode=ems_copy_c" target="_blank" class="bg-green-600 text-white px-5 py-3 rounded-lg font-semibold inline-block">Descargar ahora</a>
       </div>
 
@@ -77,7 +77,7 @@
   <script>
     // Canal y video
     const CHANNEL_URL = "https://www.youtube.com/@jk-trick2625";
-    const VIDEO_URL   = "https://youtu.be/JCj3l4bZU8o?si=uKwP7kil55WvTjLk";
+    const VIDEO_URL   = "https://youtu.be/BkUdXvWVIk0?si=iJpNiJxBaHKz0Z1R";
 
     const modal = document.getElementById('subscribe-modal');
     const openGateBtn = document.getElementById('open-gate');
